@@ -3,4 +3,53 @@
 <property name="name" value="izborIznosaForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="izborIznosa_input_dvijesto" type="CheckBox" id="1597012355">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dvijesto (izborIznosa_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/dvijesto"/>
+<property name="outputBinding" value="izborIznosa_out/dvijesto"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="izborIznosa_input_petsto" type="CheckBox" id="1298407649">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;petsto (izborIznosa_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/petsto"/>
+<property name="outputBinding" value="izborIznosa_out/petsto"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="izborIznosa_input_pettisuca" type="CheckBox" id="302592116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pettisuca (izborIznosa_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/pettisuca"/>
+<property name="outputBinding" value="izborIznosa_out/pettisuca"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="izborIznosa_input_sto" type="CheckBox" id="1581130697">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sto (izborIznosa_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/sto"/>
+<property name="outputBinding" value="izborIznosa_out/sto"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="izborIznosa_input_tisucu" type="CheckBox" id="1768930202">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tisucu (izborIznosa_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/tisucu"/>
+<property name="outputBinding" value="izborIznosa_out/tisucu"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="izborIznosa_input_tristo" type="CheckBox" id="520443763">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tristo (izborIznosa_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/tristo"/>
+<property name="outputBinding" value="izborIznosa_out/tristo"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="izborIznosa_in" name="#FF8881" type="dataModelerEntry" outId="izborIznosa_out" value="vvgbankomat.izborIznosaDat" id="izborIznosa_input"/>
 </form>
