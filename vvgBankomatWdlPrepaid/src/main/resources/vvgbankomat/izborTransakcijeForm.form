@@ -3,4 +3,21 @@
 <property name="name" value="izborTransakcijeForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="izborTransakcije_input_bon" type="CheckBox" id="1619124487">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bon (izborTransakcije_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izbotTransakcije_in/bon"/>
+<property name="outputBinding" value="izborTransakcije_out/bon"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="izborTransakcije_input_isplata" type="CheckBox" id="1557036527">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isplata (izborTransakcije_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izbotTransakcije_in/isplata"/>
+<property name="outputBinding" value="izborTransakcije_out/isplata"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="izbotTransakcije_in" name="#000000" type="dataModelerEntry" outId="izborTransakcije_out" value="vvgbankomat.izborTransakcijeDat" id="izborTransakcije_input"/>
 </form>
