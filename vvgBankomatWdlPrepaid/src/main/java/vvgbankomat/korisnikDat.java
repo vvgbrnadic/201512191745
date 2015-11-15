@@ -10,16 +10,16 @@ public class korisnikDat implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Ime")
+   @org.kie.api.definition.type.Label("Ime")
    private java.lang.String ime;
-   @org.kie.api.definition.type.Label(value = "Prezime")
+   @org.kie.api.definition.type.Label("Prezime")
    private java.lang.String prezime;
-   @org.kie.api.definition.type.Label(value = "Oib")
+   @org.kie.api.definition.type.Label("Oib")
    private java.lang.String oib;
-   @org.kie.api.definition.type.Label(value = "StanjeRacuna")
+   @org.kie.api.definition.type.Label("StanjeRacuna")
    private java.lang.Long stanje;
-   @org.kie.api.definition.type.Label(value = "Pin")
-   private java.lang.Integer pin;
+   @org.kie.api.definition.type.Label("Pin")
+   private String pin;
 
    public korisnikDat()
    {
@@ -65,18 +65,18 @@ public class korisnikDat implements java.io.Serializable
       this.stanje = stanje;
    }
 
-   public java.lang.Integer getPin()
+   public java.lang.String getPin()
    {
       return this.pin;
    }
 
-   public void setPin(java.lang.Integer pin)
+   public void setPin(java.lang.String pin)
    {
       this.pin = pin;
    }
 
    public korisnikDat(java.lang.String ime, java.lang.String prezime,
-         java.lang.String oib, java.lang.Long stanje, java.lang.Integer pin)
+         java.lang.String oib, java.lang.Long stanje, java.lang.String pin)
    {
       this.ime = ime;
       this.prezime = prezime;
