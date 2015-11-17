@@ -11,8 +11,8 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="true"/>
-<property name="inputBinding" value="pin_in"/>
-<property name="outputBinding" value="pin_out"/>
+<property name="inputBinding" value="pin_in/pin"/>
+<property name="outputBinding" value="pin_out/pin"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="pin_in" name="#E9E371" type="dataModelerEntry" outId="pin_out" value="vvgbankomat.unosPinaData" id="pin_input"/>
