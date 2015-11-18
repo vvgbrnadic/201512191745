@@ -3,7 +3,7 @@
 <property name="name" value="Izbortransakcije-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="izborTransakcije_input_bon" type="CheckBox" id="735139962">
+<field position="0" name="izborTransakcije_input_bon" type="CustomInput" id="735139962">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;bon (izborTransakcije_input)quot;"/>
 <property name="readonly" value="false"/>
@@ -11,7 +11,7 @@
 <property name="outputBinding" value="izborTransakcije_out/bon"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="1" name="izborTransakcije_input_isplata" type="CheckBox" id="2049775402">
+<field position="1" name="izborTransakcije_input_isplata" type="CustomInput" id="2049775402">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;isplata (izborTransakcije_input)quot;"/>
 <property name="readonly" value="false"/>
