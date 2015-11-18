@@ -15,8 +15,8 @@ public class izborTransakcijeDat implements java.io.Serializable
    @org.kie.api.definition.type.Label("Bon")
    private java.lang.Boolean bon;
 
-   @org.kie.api.definition.type.Label(value = "Izbor")
-   private java.lang.Integer izbor;
+   @org.kie.api.definition.type.Label("Izbor")
+   private String izbor;
 
    public izborTransakcijeDat()
    {
@@ -42,18 +42,18 @@ public class izborTransakcijeDat implements java.io.Serializable
       this.bon = bon;
    }
 
-   public java.lang.Integer getIzbor()
+   public java.lang.String getIzbor()
    {
       return this.izbor;
    }
 
-   public void setIzbor(java.lang.Integer izbor)
+   public void setIzbor(java.lang.String izbor)
    {
       this.izbor = izbor;
    }
 
    public izborTransakcijeDat(java.lang.Boolean isplata, java.lang.Boolean bon,
-         java.lang.Integer izbor)
+         java.lang.String izbor)
    {
       this.isplata = isplata;
       this.bon = bon;
