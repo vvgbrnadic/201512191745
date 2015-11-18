@@ -10,36 +10,11 @@ public class izborTransakcijeDat implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Isplata")
-   private java.lang.Boolean isplata;
-   @org.kie.api.definition.type.Label("Bon")
-   private java.lang.Boolean bon;
-
    @org.kie.api.definition.type.Label("Izbor")
    private String izbor;
 
    public izborTransakcijeDat()
    {
-   }
-
-   public java.lang.Boolean getIsplata()
-   {
-      return this.isplata;
-   }
-
-   public void setIsplata(java.lang.Boolean isplata)
-   {
-      this.isplata = isplata;
-   }
-
-   public java.lang.Boolean getBon()
-   {
-      return this.bon;
-   }
-
-   public void setBon(java.lang.Boolean bon)
-   {
-      this.bon = bon;
    }
 
    public java.lang.String getIzbor()
@@ -52,11 +27,8 @@ public class izborTransakcijeDat implements java.io.Serializable
       this.izbor = izbor;
    }
 
-   public izborTransakcijeDat(java.lang.Boolean isplata, java.lang.Boolean bon,
-         java.lang.String izbor)
+   public izborTransakcijeDat(java.lang.String izbor)
    {
-      this.isplata = isplata;
-      this.bon = bon;
       this.izbor = izbor;
    }
 
