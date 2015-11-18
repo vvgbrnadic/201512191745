@@ -19,7 +19,7 @@ public class korisnikDat implements java.io.Serializable
    @org.kie.api.definition.type.Label("StanjeRacuna")
    private java.lang.Long stanje;
    @org.kie.api.definition.type.Label("Pin")
-   private Short pin;
+   private String pin;
 
    public korisnikDat()
    {
@@ -65,18 +65,18 @@ public class korisnikDat implements java.io.Serializable
       this.stanje = stanje;
    }
 
-   public java.lang.Short getPin()
+   public java.lang.String getPin()
    {
       return this.pin;
    }
 
-   public void setPin(java.lang.Short pin)
+   public void setPin(java.lang.String pin)
    {
       this.pin = pin;
    }
 
    public korisnikDat(java.lang.String ime, java.lang.String prezime,
-         java.lang.String oib, java.lang.Long stanje, java.lang.Short pin)
+         java.lang.String oib, java.lang.Long stanje, java.lang.String pin)
    {
       this.ime = ime;
       this.prezime = prezime;
