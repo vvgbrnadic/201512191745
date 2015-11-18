@@ -3,53 +3,144 @@
 <property name="name" value="Izboriznosa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="izborIznosa_input_dvijesto" type="CheckBox" id="1936004376">
+<field position="1" name="izborIznosa_input_izabranIznos" type="InputText" id="437913738">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dvijesto (izborIznosa_input)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Izaberite jedan od iznosa:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/dvijesto"/>
-<property name="outputBinding" value="izborIznosa_out/dvijesto"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/izabranIznos"/>
+<property name="outputBinding" value="izborIznosa_out/izabranIznos"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="izborIznosa_input_petsto" type="CheckBox" id="1525801467">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1541909523">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;petsto (izborIznosa_input)quot;"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/petsto"/>
-<property name="outputBinding" value="izborIznosa_out/petsto"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp; 100KN&lt;/p&gt;
+
+&lt;p&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
+
+&lt;p&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp; 300KN&lt;/p&gt;
+
+&lt;p&gt;4.&amp;nbsp;&amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
+
+&lt;p&gt;5.&amp;nbsp;&amp;nbsp;&amp;nbsp; 500KN&lt;/p&gt;
+
+&lt;p&gt;6.&amp;nbsp;&amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
+
+&lt;p&gt;7.&amp;nbsp;&amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
+
+&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="2" name="izborIznosa_input_pettisuca" type="CheckBox" id="1562204407">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;pettisuca (izborIznosa_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/pettisuca"/>
-<property name="outputBinding" value="izborIznosa_out/pettisuca"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="3" name="izborIznosa_input_sto" type="CheckBox" id="837391774">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;sto (izborIznosa_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/sto"/>
-<property name="outputBinding" value="izborIznosa_out/sto"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="4" name="izborIznosa_input_tisucu" type="CheckBox" id="734481367">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;tisucu (izborIznosa_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/tisucu"/>
-<property name="outputBinding" value="izborIznosa_out/tisucu"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="5" name="izborIznosa_input_tristo" type="CheckBox" id="508852742">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;tristo (izborIznosa_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/tristo"/>
-<property name="outputBinding" value="izborIznosa_out/tristo"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<dataHolder inputId="izborIznosa_in" name="#A7E690" type="dataModelerEntry" outId="izborIznosa_out" value="vvgbankomat.izborIznosaDat" id="izborIznosa_input"/>
+<dataHolder inputId="izborIznosa_in" name="#9BCAFA" type="dataModelerEntry" outId="izborIznosa_out" value="vvgbankomat.izborIznosaDat" id="izborIznosa_input"/>
 </form>
