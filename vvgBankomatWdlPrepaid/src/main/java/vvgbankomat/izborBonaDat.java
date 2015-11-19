@@ -11,23 +11,23 @@ public class izborBonaDat implements java.io.Serializable
    static final long serialVersionUID = 1L;
 
    @org.kie.api.definition.type.Label("IzborBona")
-   private java.lang.String izborBona;
+   private Integer izborBona;
 
    public izborBonaDat()
    {
    }
 
-   public java.lang.String getIzborBona()
+   public java.lang.Integer getIzborBona()
    {
       return this.izborBona;
    }
 
-   public void setIzborBona(java.lang.String izborBona)
+   public void setIzborBona(java.lang.Integer izborBona)
    {
       this.izborBona = izborBona;
    }
 
-   public izborBonaDat(java.lang.String izborBona)
+   public izborBonaDat(java.lang.Integer izborBona)
    {
       this.izborBona = izborBona;
    }
