@@ -23,6 +23,9 @@ public class izborBonaDat implements java.io.Serializable
    @org.kie.api.definition.type.Label("Dencal")
    private java.lang.Boolean dencal;
 
+   @org.kie.api.definition.type.Label(value = "IzborBona")
+   private java.lang.String izborBona;
+
    public izborBonaDat()
    {
    }
@@ -87,9 +90,19 @@ public class izborBonaDat implements java.io.Serializable
       this.dencal = dencal;
    }
 
+   public java.lang.String getIzborBona()
+   {
+      return this.izborBona;
+   }
+
+   public void setIzborBona(java.lang.String izborBona)
+   {
+      this.izborBona = izborBona;
+   }
+
    public izborBonaDat(java.lang.Boolean bonbon, java.lang.Boolean tht,
          java.lang.Boolean vip, java.lang.Boolean hac, java.lang.Boolean tele2,
-         java.lang.Boolean dencal)
+         java.lang.Boolean dencal, java.lang.String izborBona)
    {
       this.bonbon = bonbon;
       this.tht = tht;
@@ -97,6 +110,7 @@ public class izborBonaDat implements java.io.Serializable
       this.hac = hac;
       this.tele2 = tele2;
       this.dencal = dencal;
+      this.izborBona = izborBona;
    }
 
 }
