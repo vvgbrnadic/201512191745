@@ -10,36 +10,11 @@ public class izborListicaDat implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Da")
-   private java.lang.Boolean da;
-   @org.kie.api.definition.type.Label("Ne")
-   private java.lang.Boolean ne;
-
    @org.kie.api.definition.type.Label("izborListicaDaNe")
    private Integer izborListicaDaNe;
 
    public izborListicaDat()
    {
-   }
-
-   public java.lang.Boolean getDa()
-   {
-      return this.da;
-   }
-
-   public void setDa(java.lang.Boolean da)
-   {
-      this.da = da;
-   }
-
-   public java.lang.Boolean getNe()
-   {
-      return this.ne;
-   }
-
-   public void setNe(java.lang.Boolean ne)
-   {
-      this.ne = ne;
    }
 
    public java.lang.Integer getIzborListicaDaNe()
@@ -52,11 +27,8 @@ public class izborListicaDat implements java.io.Serializable
       this.izborListicaDaNe = izborListicaDaNe;
    }
 
-   public izborListicaDat(java.lang.Boolean da, java.lang.Boolean ne,
-         java.lang.Integer izborListicaDaNe)
+   public izborListicaDat(java.lang.Integer izborListicaDaNe)
    {
-      this.da = da;
-      this.ne = ne;
       this.izborListicaDaNe = izborListicaDaNe;
    }
 
