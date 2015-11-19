@@ -10,94 +10,26 @@ public class vrijednostBona implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Dvadeset")
-   private java.lang.Boolean dvadeset;
-   @org.kie.api.definition.type.Label(value = "Trideset")
-   private java.lang.Boolean trideset;
-   @org.kie.api.definition.type.Label(value = "Cetrdeset")
-   private java.lang.Boolean cetrdeset;
-   @org.kie.api.definition.type.Label(value = "Pedeset")
-   private java.lang.Boolean pedeset;
-   @org.kie.api.definition.type.Label(value = "Sto")
-   private java.lang.Boolean sto;
-   @org.kie.api.definition.type.Label(value = "Dvijesto")
-   private java.lang.Boolean dvijesto;
+   @org.kie.api.definition.type.Label(value = "VrijednostBona")
+   private java.lang.Integer vrijednostBona;
 
    public vrijednostBona()
    {
    }
 
-   public java.lang.Boolean getDvadeset()
+   public java.lang.Integer getVrijednostBona()
    {
-      return this.dvadeset;
+      return this.vrijednostBona;
    }
 
-   public void setDvadeset(java.lang.Boolean dvadeset)
+   public void setVrijednostBona(java.lang.Integer vrijednostBona)
    {
-      this.dvadeset = dvadeset;
+      this.vrijednostBona = vrijednostBona;
    }
 
-   public java.lang.Boolean getTrideset()
+   public vrijednostBona(java.lang.Integer vrijednostBona)
    {
-      return this.trideset;
-   }
-
-   public void setTrideset(java.lang.Boolean trideset)
-   {
-      this.trideset = trideset;
-   }
-
-   public java.lang.Boolean getCetrdeset()
-   {
-      return this.cetrdeset;
-   }
-
-   public void setCetrdeset(java.lang.Boolean cetrdeset)
-   {
-      this.cetrdeset = cetrdeset;
-   }
-
-   public java.lang.Boolean getPedeset()
-   {
-      return this.pedeset;
-   }
-
-   public void setPedeset(java.lang.Boolean pedeset)
-   {
-      this.pedeset = pedeset;
-   }
-
-   public java.lang.Boolean getSto()
-   {
-      return this.sto;
-   }
-
-   public void setSto(java.lang.Boolean sto)
-   {
-      this.sto = sto;
-   }
-
-   public java.lang.Boolean getDvijesto()
-   {
-      return this.dvijesto;
-   }
-
-   public void setDvijesto(java.lang.Boolean dvijesto)
-   {
-      this.dvijesto = dvijesto;
-   }
-
-   public vrijednostBona(java.lang.Boolean dvadeset,
-         java.lang.Boolean trideset, java.lang.Boolean cetrdeset,
-         java.lang.Boolean pedeset, java.lang.Boolean sto,
-         java.lang.Boolean dvijesto)
-   {
-      this.dvadeset = dvadeset;
-      this.trideset = trideset;
-      this.cetrdeset = cetrdeset;
-      this.pedeset = pedeset;
-      this.sto = sto;
-      this.dvijesto = dvijesto;
+      this.vrijednostBona = vrijednostBona;
    }
 
 }
