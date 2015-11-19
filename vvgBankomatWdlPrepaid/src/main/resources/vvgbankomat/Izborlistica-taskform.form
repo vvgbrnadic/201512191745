@@ -3,46 +3,20 @@
 <property name="name" value="Izborlistica-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="izborListica_input_izborListicaDaNe" type="InputTextInteger" id="1630486746">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Upisite izbor:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborListica_in/izborListicaDaNe"/>
-<property name="outputBinding" value="izborListica_out/izborListicaDaNe"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
 <field position="0" name=":decorator_0" type="HTMLLabel" id="99279834">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; DA&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; NE&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<dataHolder inputId="izborListica_in" name="#E9E371" type="dataModelerEntry" outId="izborListica_out" value="vvgbankomat.izborListicaDat" id="izborListica_input"/>
+<field position="1" name="izborListica_input_izborListicaDaNe" type="InputTextInteger" id="2103315839">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;izborListicaDaNe (izborListica_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="listic_in/izborListicaDaNe"/>
+<property name="outputBinding" value="listic_out/izborListicaDaNe"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="listic_in" name="#9BCAFA" type="dataModelerEntry" outId="listic_out" value="vvgbankomat.izborListicaDat" id="izborListica_input"/>
 </form>
