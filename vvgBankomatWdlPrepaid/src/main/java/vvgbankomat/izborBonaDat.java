@@ -10,84 +10,11 @@ public class izborBonaDat implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Bonbon")
-   private java.lang.Boolean bonbon;
-   @org.kie.api.definition.type.Label("THT")
-   private java.lang.Boolean tht;
-   @org.kie.api.definition.type.Label("Vip")
-   private java.lang.Boolean vip;
-   @org.kie.api.definition.type.Label("Hac")
-   private java.lang.Boolean hac;
-   @org.kie.api.definition.type.Label("Tele2")
-   private java.lang.Boolean tele2;
-   @org.kie.api.definition.type.Label("Dencal")
-   private java.lang.Boolean dencal;
-
-   @org.kie.api.definition.type.Label(value = "IzborBona")
+   @org.kie.api.definition.type.Label("IzborBona")
    private java.lang.String izborBona;
 
    public izborBonaDat()
    {
-   }
-
-   public java.lang.Boolean getBonbon()
-   {
-      return this.bonbon;
-   }
-
-   public void setBonbon(java.lang.Boolean bonbon)
-   {
-      this.bonbon = bonbon;
-   }
-
-   public java.lang.Boolean getTht()
-   {
-      return this.tht;
-   }
-
-   public void setTht(java.lang.Boolean tht)
-   {
-      this.tht = tht;
-   }
-
-   public java.lang.Boolean getVip()
-   {
-      return this.vip;
-   }
-
-   public void setVip(java.lang.Boolean vip)
-   {
-      this.vip = vip;
-   }
-
-   public java.lang.Boolean getHac()
-   {
-      return this.hac;
-   }
-
-   public void setHac(java.lang.Boolean hac)
-   {
-      this.hac = hac;
-   }
-
-   public java.lang.Boolean getTele2()
-   {
-      return this.tele2;
-   }
-
-   public void setTele2(java.lang.Boolean tele2)
-   {
-      this.tele2 = tele2;
-   }
-
-   public java.lang.Boolean getDencal()
-   {
-      return this.dencal;
-   }
-
-   public void setDencal(java.lang.Boolean dencal)
-   {
-      this.dencal = dencal;
    }
 
    public java.lang.String getIzborBona()
@@ -100,16 +27,8 @@ public class izborBonaDat implements java.io.Serializable
       this.izborBona = izborBona;
    }
 
-   public izborBonaDat(java.lang.Boolean bonbon, java.lang.Boolean tht,
-         java.lang.Boolean vip, java.lang.Boolean hac, java.lang.Boolean tele2,
-         java.lang.Boolean dencal, java.lang.String izborBona)
+   public izborBonaDat(java.lang.String izborBona)
    {
-      this.bonbon = bonbon;
-      this.tht = tht;
-      this.vip = vip;
-      this.hac = hac;
-      this.tele2 = tele2;
-      this.dencal = dencal;
       this.izborBona = izborBona;
    }
 
