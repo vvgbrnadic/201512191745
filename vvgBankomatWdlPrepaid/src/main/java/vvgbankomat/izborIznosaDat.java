@@ -24,7 +24,7 @@ public class izborIznosaDat implements java.io.Serializable
    private java.lang.Boolean pettisuca;
 
    @org.kie.api.definition.type.Label("IzabranIznos")
-   private Integer izabranIznos;
+   private int izabranIznos;
 
    public izborIznosaDat()
    {
@@ -90,20 +90,19 @@ public class izborIznosaDat implements java.io.Serializable
       this.pettisuca = pettisuca;
    }
 
-   public java.lang.Integer getIzabranIznos()
+   public int getIzabranIznos()
    {
       return this.izabranIznos;
    }
 
-   public void setIzabranIznos(java.lang.Integer izabranIznos)
+   public void setIzabranIznos(int izabranIznos)
    {
       this.izabranIznos = izabranIznos;
    }
 
    public izborIznosaDat(java.lang.Boolean sto, java.lang.Boolean dvijesto,
          java.lang.Boolean tristo, java.lang.Boolean petsto,
-         java.lang.Boolean tisucu, java.lang.Boolean pettisuca,
-         java.lang.Integer izabranIznos)
+         java.lang.Boolean tisucu, java.lang.Boolean pettisuca, int izabranIznos)
    {
       this.sto = sto;
       this.dvijesto = dvijesto;
