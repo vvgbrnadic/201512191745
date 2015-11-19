@@ -3,53 +3,13 @@
 <property name="name" value="VrijednostBONa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="vrijednostBona_input_cetrdeset" type="CheckBox" id="1242862569">
+<field position="0" name="vrijednostBona_input_vrijednostBona" type="InputTextInteger" id="1592001598">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;cetrdeset (vrijednostBona_input)quot;"/>
+<property name="label" value="quot;enquot;,quot;vrijednostBona (vrijednostBona_input)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="vrijednostBonaID_in/cetrdeset"/>
-<property name="outputBinding" value="vrijednostBonaID_out/cetrdeset"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="inputBinding" value="vrijednostBona_in/vrijednostBona"/>
+<property name="outputBinding" value="vrijednostBona_out/vrijednostBona"/>
+<property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="vrijednostBona_input_dvadeset" type="CheckBox" id="1397997376">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dvadeset (vrijednostBona_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="vrijednostBonaID_in/dvadeset"/>
-<property name="outputBinding" value="vrijednostBonaID_out/dvadeset"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="2" name="vrijednostBona_input_dvijesto" type="CheckBox" id="535150243">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dvijesto (vrijednostBona_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="vrijednostBonaID_in/dvijesto"/>
-<property name="outputBinding" value="vrijednostBonaID_out/dvijesto"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="3" name="vrijednostBona_input_pedeset" type="CheckBox" id="1599181834">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;pedeset (vrijednostBona_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="vrijednostBonaID_in/pedeset"/>
-<property name="outputBinding" value="vrijednostBonaID_out/pedeset"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="4" name="vrijednostBona_input_sto" type="CheckBox" id="14933668">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;sto (vrijednostBona_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="vrijednostBonaID_in/sto"/>
-<property name="outputBinding" value="vrijednostBonaID_out/sto"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="5" name="vrijednostBona_input_trideset" type="CheckBox" id="1832542983">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;trideset (vrijednostBona_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="vrijednostBonaID_in/trideset"/>
-<property name="outputBinding" value="vrijednostBonaID_out/trideset"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<dataHolder inputId="vrijednostBonaID_in" name="#B29FE4" type="dataModelerEntry" outId="vrijednostBonaID_out" value="vvgbankomat.vrijednostBona" id="vrijednostBona_input"/>
+<dataHolder inputId="vrijednostBona_in" name="#E9E371" type="dataModelerEntry" outId="vrijednostBona_out" value="vvgbankomat.vrijednostBona" id="vrijednostBona_input"/>
 </form>
