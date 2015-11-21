@@ -3,4 +3,13 @@
 <property name="name" value="ProvjeraStanja-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="uspjesnaTr_input" type="CheckBox" id="1535886826">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_uspjesnaTr (uspjesnaTr_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_uspjesnaTr"/>
+<property name="outputBinding" value="out_uspjesnaTr"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="in_uspjesnaTr" name="#9BCAFA" type="basicType" outId="out_uspjesnaTr" value="java.lang.Boolean" id="uspjesnaTr_input"/>
 </form>
