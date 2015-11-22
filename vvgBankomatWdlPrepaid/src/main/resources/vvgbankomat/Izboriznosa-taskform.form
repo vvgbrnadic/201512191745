@@ -3,140 +3,22 @@
 <property name="name" value="Izboriznosa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="izborIznosa_input_izabranIznos" type="InputTextInteger" id="1181830796">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;izabranIznos (izborIznosa_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/izabranIznos"/>
-<property name="outputBinding" value="izborIznosa_out/izabranIznos"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
 <field position="0" name=":decorator_0" type="HTMLLabel" id="893147435">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;
-
-&lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;
-
-&lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;
-
-&lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;
-
-&lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;
-
-&lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;
-
-&lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;
-
-&lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;1.&amp;nbsp;&amp;nbsp; &amp;nbsp; 100KN&lt;/p&gt;  &lt;p&gt;2.&amp;nbsp; &amp;nbsp;&amp;nbsp; 200KN&lt;/p&gt;  &lt;p&gt;3. &amp;nbsp; &amp;nbsp; 300KN&lt;/p&gt;  &lt;p&gt;4.&amp;nbsp; &amp;nbsp;&amp;nbsp; 400KN&lt;/p&gt;  &lt;p&gt;5.&amp;nbsp;&amp;nbsp; &amp;nbsp; 500KN&lt;/p&gt;  &lt;p&gt;6.&amp;nbsp; &amp;nbsp;&amp;nbsp; 700KN&lt;/p&gt;  &lt;p&gt;7.&amp;nbsp; &amp;nbsp;&amp;nbsp; 800KN&lt;/p&gt;  &lt;p&gt;8.&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000KN&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="izborIznosa_input_izabranIznos" type="InputTextInteger" id="1181830796">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Izaberite iznosquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="izborIznosa_in/izabranIznos"/>
+<property name="outputBinding" value="izborIznosa_out/izabranIznos"/>
+<property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <dataHolder inputId="izborIznosa_in" name="#9BCAFA" type="dataModelerEntry" outId="izborIznosa_out" value="vvgbankomat.izborIznosaDat" id="izborIznosa_input"/>
 </form>
