@@ -3,13 +3,127 @@
 <property name="name" value="VrijednostBONa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="vrijednostBona_input_vrijednostBona" type="InputTextInteger" id="1592001598">
+<field position="1" name="vrijednostBona_input_vrijednostBona" type="InputTextInteger" id="1592001598">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;vrijednostBona (vrijednostBona_input)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Izaberite vrijednost BONaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="vrijednostBona_in/vrijednostBona"/>
 <property name="outputBinding" value="vrijednostBona_out/vrijednostBona"/>
 <property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="753740504">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;1. 20 kn&lt;/p&gt;
+
+&lt;p&gt;2. 40 kn&lt;/p&gt;
+
+&lt;p&gt;3. 60 kn&lt;/p&gt;
+
+&lt;p&gt;4. 80 kn&lt;/p&gt;
+
+&lt;p&gt;5. 100 kn&lt;/p&gt;
+
+&lt;p&gt;6. 200 kn&lt;/p&gt;
+
+&lt;p&gt;___________________________&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="vrijednostBona_in" name="#E9E371" type="dataModelerEntry" outId="vrijednostBona_out" value="vvgbankomat.vrijednostBona" id="vrijednostBona_input"/>
 </form>
