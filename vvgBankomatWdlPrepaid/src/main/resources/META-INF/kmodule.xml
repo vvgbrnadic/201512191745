@@ -5,5 +5,10 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.HelloWorkItemHandler" name="HelloWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
+    <ksession name="myxprovjerapinasession" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraPinaHandler" name="ProvjeraPinaHandler"/>
+      </workItemHandlers>
+    </ksession>
   </kbase>
 </kmodule>
