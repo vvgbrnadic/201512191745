@@ -5,7 +5,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
   [
    "name" : "UsojesnaTransakcijaIspis",
-    "displayName" : "UspjesnaTrIspis!",
+    "displayName" : "Uspjesna Tr Ispis!",
     "icon" : "defaultemailicon.gif"
   ],
 
