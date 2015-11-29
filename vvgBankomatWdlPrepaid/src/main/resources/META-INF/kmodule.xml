@@ -2,7 +2,7 @@
   <kbase name="myxbase" default="true" eventProcessingMode="cloud" equalsBehavior="identity">
     <ksession name="myxsession" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
-        <workItemHandler type="org.jugvale.jbpm.workitemhandler HelloWorkItemHandler" name="HelloWorkItemHandler"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.HelloWorkItemHandler" name="HelloWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
   </kbase>
