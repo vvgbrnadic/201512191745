@@ -4,6 +4,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 [
 
   [
+   "name" : "UspjesnaTransakcijaNeIspis",
+    "displayName" : "Uspjesna Tr Ne_Ispis!",
+    "icon" : "defaultemailicon.gif"
+  ],
+  
+    [
+   "name" : "NeuspjesnaTransakcija",
+    "displayName" : "Neuspjesna Tr!",
+    "icon" : "defaultemailicon.gif"
+  ],
+  
+  [
    "name" : "UspjesnaTransakcijaIspis",
     "displayName" : "Uspjesna Tr Ispis!",
     "icon" : "defaultemailicon.gif"
