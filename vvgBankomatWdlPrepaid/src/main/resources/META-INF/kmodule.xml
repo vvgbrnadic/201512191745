@@ -6,4 +6,11 @@
       </workItemHandlers>
     </ksession>
   </kbase>
+  <kbase name="myxbasekrivipin" default="false" eventProcessingMode="stream" equalsBehavior="identity">
+    <ksession name="myxprovjerapinasession" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraPinaHandler" name="myxprovjerapinasession"/>
+      </workItemHandlers>
+    </ksession>
+  </kbase>
 </kmodule>
