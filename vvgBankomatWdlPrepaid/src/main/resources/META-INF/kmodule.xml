@@ -5,6 +5,7 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.HelloWorkItemHandler" name="HelloWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraPinaHandler" name="ProvjeraPinaHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraBankomataHandler" name="ProvjeraBankomataHandler"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraDostupnostiBona" name="ProvjeraDostupnostiBona"/>
       </workItemHandlers>
     </ksession>
   </kbase>
