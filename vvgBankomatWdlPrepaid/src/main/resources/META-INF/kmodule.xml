@@ -7,6 +7,8 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraBankomataHandler" name="ProvjeraBankomataHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraDostupnostiBona" name="ProvjeraDostupnostiBona"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UspjesnaTransakcijaIspis" name="UspjesnaTransakcijaIspis"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.NeuspjesnaTransakcija" name="NeuspjesnaTransakcija"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.UspjesnaTransakcijaNeIspis" name="UspjesnaTransakcijaNeIspis"/>
       </workItemHandlers>
     </ksession>
   </kbase>

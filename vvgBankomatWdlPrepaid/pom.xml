@@ -32,6 +32,16 @@
       <artifactId>uspjesnaTransakcijaIspis-workitemhandle</artifactId>
       <version>1.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.jugvale.jbpm.workitemhandler</groupId>
+      <artifactId>neuspjesnaTransakcija-workitemhandle</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jugvale.jbpm.workitemhandler</groupId>
+      <artifactId>uspjesnaTransakcijaNeIspis-workitemhandle</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
