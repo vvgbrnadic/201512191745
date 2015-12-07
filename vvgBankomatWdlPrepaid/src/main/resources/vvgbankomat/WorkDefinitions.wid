@@ -3,6 +3,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
 
+    [
+   "name" : "ProvjeraPinaHandler7",
+    "displayName" : "Krivi PIN! 7",
+    "icon" : "defaultemailicon.gif"
+    "results" : [
+	"podatak" : newStringDataType()
+    ]
+  ],
+  
   [
    "name" : "UspjesnaTransakcijaNeIspis",
     "displayName" : "Uspjesna Tr Ne_Ispis!",
