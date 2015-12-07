@@ -42,11 +42,6 @@
       <artifactId>uspjesnaTransakcijaNeIspis-workitemhandle</artifactId>
       <version>1.0</version>
     </dependency>
-    <dependency>
-      <groupId>org.jugvale.jbpm.workitemhandler</groupId>
-      <artifactId>WorkItemVvgAtm-kriviPin-new7</artifactId>
-      <version>1.0</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
