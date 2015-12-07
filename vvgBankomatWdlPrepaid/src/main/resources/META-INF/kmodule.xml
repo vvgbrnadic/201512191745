@@ -9,7 +9,6 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UspjesnaTransakcijaIspis" name="UspjesnaTransakcijaIspis"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.NeuspjesnaTransakcija" name="NeuspjesnaTransakcija"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UspjesnaTransakcijaNeIspis" name="UspjesnaTransakcijaNeIspis"/>
-        <workItemHandler type="org.jugvale.jbpm.workitemhandler.ProvjeraPinaHandlerNew7" name="ProvjeraPinaHandlerNew7"/>
       </workItemHandlers>
     </ksession>
   </kbase>
