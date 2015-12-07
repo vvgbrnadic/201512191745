@@ -8,8 +8,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "Krivi PIN! 7",
     "icon" : "defaultemailicon.gif"
     "results" : [
-	"podatak" : newStringDataType()
-    ]
+
   ],
   
   [
