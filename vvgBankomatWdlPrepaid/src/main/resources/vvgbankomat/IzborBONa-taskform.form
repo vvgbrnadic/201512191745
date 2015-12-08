@@ -3,10 +3,24 @@
 <property name="name" value="IzborBONa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1185167121">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;  &lt;p&gt;2. VIP&lt;/p&gt;  &lt;p&gt;3. DenCall&lt;/p&gt;  &lt;p&gt;4. BonBon&lt;/p&gt;  &lt;p&gt;5. TELE2&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name=":decorator_1" type="HTMLLabel" id="1299306528">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;__________________________&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <field position="2" name="izborBona_input_izborBona" type="InputTextInteger" id="377524223">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Izaberite BON po rednom brojuquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Izaberite BON po rednom brojuquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -14,99 +28,16 @@
 <property name="outputBinding" value="izborBona_out/izborBona"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="1185167121">
+<field position="3" name="korisnik_id_stanje" type="InputTextLong" id="520695554">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;1. T-Hrvatski Telekom&lt;/p&gt;
-
-&lt;p&gt;2. VIP&lt;/p&gt;
-
-&lt;p&gt;3. DenCall&lt;/p&gt;
-
-&lt;p&gt;4. BonBon&lt;/p&gt;
-
-&lt;p&gt;5. TELE2&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="1" name=":decorator_1" type="HTMLLabel" id="1299306528">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;__________________________&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;stanje (korisnik_id)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="korisnik_out/stanje"/>
+<property name="outputBinding" value="korisnik_out/stanje"/>
+<property name="fieldClass" value="java.lang.Long"/>
 </field>
 <dataHolder inputId="izborBona_in" name="#E9E371" type="dataModelerEntry" outId="izborBona_out" value="vvgbankomat.izborBonaDat" id="izborBona_input"/>
+<dataHolder inputId="korisnik_out" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="vvgbankomat.korisnikDat" id="korisnik_id"/>
 </form>
