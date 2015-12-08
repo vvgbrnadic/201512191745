@@ -44,7 +44,7 @@
     </dependency>
     <dependency>
       <groupId>org.jugvale.jbpm.workitemhandler</groupId>
-      <artifactId>provjerapina7-workitemhandler</artifactId>
+      <artifactId>WrongPinLab6-workitemhandler</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>
