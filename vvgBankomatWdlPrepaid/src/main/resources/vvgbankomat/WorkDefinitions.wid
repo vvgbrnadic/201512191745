@@ -4,8 +4,17 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 [
   
     [
-   "name" : "ProvjeraPinaHandlerNew7",
-    "displayName" : "ProvjeraPinaHandlerNew7!",
+   "name" : "WrongPinLab7",
+    "displayName" : "WrongPinLab7!",
+    "icon" : "defaultemailicon.gif",
+    "results" : [
+    "podatak" : newStringDataType()
+        ]
+  ],
+  
+  [
+   "name" : "UspjesnaTransakcijaNeIspis",
+    "displayName" : "Uspjesna Tr Ne_Ispis!",
     "icon" : "defaultemailicon.gif"
   ],
   
