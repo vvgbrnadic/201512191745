@@ -6,10 +6,8 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     [
    "name" : "WrongPinLab7",
     "displayName" : "WrongPinLab7!",
-    "icon" : "defaultemailicon.gif",
-    "results" : [
-    "podatak" : newStringDataType()
-        ]
+    "icon" : "defaultemailicon.gif"
+
 
   ],
   
