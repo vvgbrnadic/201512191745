@@ -6,7 +6,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     [
    "name" : "ProvjeraPinaHandlerNew7",
     "displayName" : "ProvjeraPinaHandlerNew7!",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
     "results" : [
 "podatak" : newStringDataType()
 ]
