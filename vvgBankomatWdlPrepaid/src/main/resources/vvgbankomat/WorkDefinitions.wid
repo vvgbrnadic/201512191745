@@ -2,14 +2,6 @@ import org.drools.core.process.core.datatype.impl.type.StringDataType;
 import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
-    [
-   "name" : "WrongPinLab6",
-    "displayName" : "Provjera sredstava!",
-    "icon" : "defaultemailicon.gif",
-    "results" : [
-        "podatak" : new ObjectDataType("vvgbankomat.korisnikDat")
-        ]
-  ],
   
   [
    "name" : "UspjesnaTransakcijaNeIspis",
