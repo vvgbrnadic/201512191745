@@ -43,8 +43,8 @@
       <version>1.0</version>
     </dependency>
     <dependency>
-      <groupId>org.jugvale.jbpm.workitemhandler</groupId>
-      <artifactId>WrongPinLab6-workitemhandler</artifactId>
+      <groupId>test</groupId>
+      <artifactId>WrongPinLab6</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>
