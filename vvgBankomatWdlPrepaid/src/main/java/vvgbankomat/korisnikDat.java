@@ -27,7 +27,18 @@ public class korisnikDat implements java.io.Serializable
    public korisnikDat()
    {
    }
-
+    
+       public korisnikDat(java.lang.String ime, java.lang.String prezime,
+         java.lang.String oib, java.lang.Integer stanje, java.lang.String pin,
+         java.lang.Boolean imaSredstva)
+   {
+      this.ime = ime;
+      this.prezime = prezime;
+      this.oib = oib;
+      this.stanje = stanje;
+      this.pin = pin;
+      this.imaSredstva = imaSredstva;
+   }
    public java.lang.String getIme()
    {
       return this.ime;
@@ -85,18 +96,6 @@ public class korisnikDat implements java.io.Serializable
 
    public void setImaSredstva(java.lang.Boolean imaSredstva)
    {
-      this.imaSredstva = imaSredstva;
-   }
-
-   public korisnikDat(java.lang.String ime, java.lang.String prezime,
-         java.lang.String oib, java.lang.Integer stanje, java.lang.String pin,
-         java.lang.Boolean imaSredstva)
-   {
-      this.ime = ime;
-      this.prezime = prezime;
-      this.oib = oib;
-      this.stanje = stanje;
-      this.pin = pin;
       this.imaSredstva = imaSredstva;
    }
 
