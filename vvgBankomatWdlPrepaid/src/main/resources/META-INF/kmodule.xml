@@ -9,7 +9,7 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UspjesnaTransakcijaIspis" name="UspjesnaTransakcijaIspis"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.NeuspjesnaTransakcija" name="NeuspjesnaTransakcija"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UspjesnaTransakcijaNeIspis" name="UspjesnaTransakcijaNeIspis"/>
-        <workItemHandler type="org.jugvale.jbpm.workitemhandler.WrongPinLab6" name="WrongPinLab6"/>
+        <workItemHandler type="test.WrongPinLab6" name="WrongPinLab6"/>
       </workItemHandlers>
     </ksession>
   </kbase>
