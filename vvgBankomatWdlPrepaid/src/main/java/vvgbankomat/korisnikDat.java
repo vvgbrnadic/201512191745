@@ -17,7 +17,7 @@ public class korisnikDat implements java.io.Serializable
    @org.kie.api.definition.type.Label("Oib")
    private java.lang.String oib;
    @org.kie.api.definition.type.Label("StanjeRacuna")
-   private java.lang.Long stanje;
+   private Integer stanje;
    @org.kie.api.definition.type.Label("Pin")
    private String pin;
 
@@ -55,16 +55,6 @@ public class korisnikDat implements java.io.Serializable
       this.oib = oib;
    }
 
-   public java.lang.Long getStanje()
-   {
-      return this.stanje;
-   }
-
-   public void setStanje(java.lang.Long stanje)
-   {
-      this.stanje = stanje;
-   }
-
    public java.lang.String getPin()
    {
       return this.pin;
@@ -75,8 +65,18 @@ public class korisnikDat implements java.io.Serializable
       this.pin = pin;
    }
 
+   public java.lang.Integer getStanje()
+   {
+      return this.stanje;
+   }
+
+   public void setStanje(java.lang.Integer stanje)
+   {
+      this.stanje = stanje;
+   }
+
    public korisnikDat(java.lang.String ime, java.lang.String prezime,
-         java.lang.String oib, java.lang.Long stanje, java.lang.String pin)
+         java.lang.String oib, java.lang.Integer stanje, java.lang.String pin)
    {
       this.ime = ime;
       this.prezime = prezime;
