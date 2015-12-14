@@ -12,5 +12,7 @@
       </workItemHandlers>
     </ksession>
   </kbase>
-  <kbase name="kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity"/>
+  <kbase name="kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+    <ksession name="mxsession" type="stateful" default="true" clockType="realtime"/>
+  </kbase>
 </kmodule>
