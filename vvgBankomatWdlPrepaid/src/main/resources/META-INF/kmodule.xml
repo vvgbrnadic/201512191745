@@ -1,5 +1,5 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="myxbase" default="true" eventProcessingMode="cloud" equalsBehavior="identity">
+  <kbase name="myxbase" default="false" eventProcessingMode="cloud" equalsBehavior="identity">
     <ksession name="myxsession" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.HelloWorkItemHandler" name="HelloWorkItemHandler"/>
@@ -12,4 +12,5 @@
       </workItemHandlers>
     </ksession>
   </kbase>
+  <kbase name="kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity"/>
 </kmodule>
