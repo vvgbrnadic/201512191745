@@ -3,6 +3,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
     [
+   "name" : "WorkItemHandler6",
+    "displayName" : "Neuspjesna V7",
+    "icon" : "defaultemailicon.gif"
+  ],
+    
+    [
+   "name" : "WorkItemHandler5",
+    "displayName" : "Uspjesna V7",
+    "icon" : "defaultemailicon.gif"
+  ],
+    
+    [
    "name" : "WorkItemHandler4",
     "displayName" : "Provjera stanja bon V7",
     "icon" : "defaultemailicon.gif",
