@@ -3,6 +3,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
     [
+   "name" : "WorkItemHandler3",
+    "displayName" : "Provjera stanja isplata V7",
+    "icon" : "defaultemailicon.gif",
+    "result" : [
+       "podatak" : new ObjectDataType("vvgbankomat.izborIznosaDat")
+        ]
+  ],
+    
+    [
    "name" : "WorkItemHandler2",
     "displayName" : "Krivi pin V7",
     "icon" : "defaultemailicon.gif"
