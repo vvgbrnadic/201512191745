@@ -3,10 +3,17 @@
 <property name="name" value="UnosKorisnickihPodataka-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="2056387548">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;  &lt;p&gt;___________________________&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <field position="1" name="korisnik_input_ime" type="InputText" id="649972181">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;IMEquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;IMEquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -16,36 +23,10 @@
 <property name="outputBinding" value="korisnik_out/ime"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="korisnik_input_oib" type="InputText" id="1125079502">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OiBquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/oib"/>
-<property name="outputBinding" value="korisnik_out/oib"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="korisnik_input_pin" type="InputText" id="1174523192">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PINquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/pin"/>
-<property name="outputBinding" value="korisnik_out/pin"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="2" name="korisnik_input_prezime" type="InputText" id="2056895058">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PREZIMEquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PREZIMEquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -55,10 +36,23 @@
 <property name="outputBinding" value="korisnik_out/prezime"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="3" name="korisnik_input_oib" type="InputText" id="1125079502">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OiBquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="korisnik_in/oib"/>
+<property name="outputBinding" value="korisnik_out/oib"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <field position="4" name="korisnik_input_stanje" type="InputTextLong" id="1716722970">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;STANJEquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;STANJEquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -66,36 +60,26 @@
 <property name="outputBinding" value="korisnik_out/stanje"/>
 <property name="fieldClass" value="java.lang.Long"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="2056387548">
+<field position="5" name="korisnik_input_pin" type="InputText" id="1174523192">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PINquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;UNOS KORISNICKIH PODATAKA&lt;/p&gt;
-
-&lt;p&gt;___________________________&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="korisnik_in/pin"/>
+<property name="outputBinding" value="korisnik_out/pin"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="korisnik_input_imaSredstva" type="CheckBox" id="1810798803">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;imaSredstva (korisnik_input)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/imaSredstva"/>
+<property name="outputBinding" value="korisnik_out/imaSredstva"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="vvgbankomat.korisnikDat" id="korisnik_input"/>
 </form>
