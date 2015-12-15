@@ -3,4 +3,53 @@
 <property name="name" value="UnosKorisnickihPodataka-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="korisnik_id_imaSredstva" type="CheckBox" id="947421223">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;imaSredstva (korisnik_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/imaSredstva"/>
+<property name="outputBinding" value="korisnik_out/imaSredstva"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="korisnik_id_ime" type="InputText" id="318009657">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ime (korisnik_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/ime"/>
+<property name="outputBinding" value="korisnik_out/ime"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="korisnik_id_oib" type="InputText" id="1179381319">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;oib (korisnik_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/oib"/>
+<property name="outputBinding" value="korisnik_out/oib"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="korisnik_id_pin" type="InputText" id="415266526">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pin (korisnik_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/pin"/>
+<property name="outputBinding" value="korisnik_out/pin"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="korisnik_id_prezime" type="InputText" id="841784585">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;prezime (korisnik_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/prezime"/>
+<property name="outputBinding" value="korisnik_out/prezime"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="korisnik_id_stanje" type="InputTextInteger" id="1254105962">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stanje (korisnik_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_in/stanje"/>
+<property name="outputBinding" value="korisnik_out/stanje"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="korisnik_in" name="#0000A0" type="dataModelerEntry" outId="korisnik_out" value="vvgbankomat.korisnikDat" id="korisnik_id"/>
 </form>
