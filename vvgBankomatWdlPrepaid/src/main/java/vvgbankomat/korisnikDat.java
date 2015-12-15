@@ -19,26 +19,15 @@ public class korisnikDat implements java.io.Serializable
    @org.kie.api.definition.type.Label("StanjeRacuna")
    private Integer stanje;
    @org.kie.api.definition.type.Label("Pin")
-   private String pin;
+   private Integer pin;
 
-   @org.kie.api.definition.type.Label(value = "Ima sredstva")
+   @org.kie.api.definition.type.Label("Ima sredstva")
    private java.lang.Boolean imaSredstva;
 
    public korisnikDat()
    {
    }
-    
-       public korisnikDat(java.lang.String ime, java.lang.String prezime,
-         java.lang.String oib, java.lang.Integer stanje, java.lang.String pin,
-         java.lang.Boolean imaSredstva)
-   {
-      this.ime = ime;
-      this.prezime = prezime;
-      this.oib = oib;
-      this.stanje = stanje;
-      this.pin = pin;
-      this.imaSredstva = imaSredstva;
-   }
+
    public java.lang.String getIme()
    {
       return this.ime;
@@ -69,16 +58,6 @@ public class korisnikDat implements java.io.Serializable
       this.oib = oib;
    }
 
-   public java.lang.String getPin()
-   {
-      return this.pin;
-   }
-
-   public void setPin(java.lang.String pin)
-   {
-      this.pin = pin;
-   }
-
    public java.lang.Integer getStanje()
    {
       return this.stanje;
@@ -96,6 +75,28 @@ public class korisnikDat implements java.io.Serializable
 
    public void setImaSredstva(java.lang.Boolean imaSredstva)
    {
+      this.imaSredstva = imaSredstva;
+   }
+
+   public java.lang.Integer getPin()
+   {
+      return this.pin;
+   }
+
+   public void setPin(java.lang.Integer pin)
+   {
+      this.pin = pin;
+   }
+
+   public korisnikDat(java.lang.String ime, java.lang.String prezime,
+         java.lang.String oib, java.lang.Integer stanje, java.lang.Integer pin,
+         java.lang.Boolean imaSredstva)
+   {
+      this.ime = ime;
+      this.prezime = prezime;
+      this.oib = oib;
+      this.stanje = stanje;
+      this.pin = pin;
       this.imaSredstva = imaSredstva;
    }
 
