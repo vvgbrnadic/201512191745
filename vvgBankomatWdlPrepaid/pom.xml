@@ -42,6 +42,11 @@
       <artifactId>uspjesnaTransakcijaNeIspis-workitemhandle</artifactId>
       <version>1.0</version>
     </dependency>
+    <dependency>
+      <groupId>WorkItemHandler1</groupId>
+      <artifactId>WorkItemHandler1</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
