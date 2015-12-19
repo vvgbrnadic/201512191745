@@ -3,4 +3,5 @@
 <property name="name" value="IzboriIznosa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="moguciIznos_in" name="#E9E371" type="dataModelerEntry" outId="moguciIznos_out" value="vvgbankomat.biranjeIznosa" id="idBiraniIznos"/>
 </form>
