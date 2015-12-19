@@ -67,11 +67,6 @@
       <artifactId>WorkItemHandler6</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
-    <dependency>
-      <groupId>WorkItemHandler3</groupId>
-      <artifactId>WorkItemHandler3</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
