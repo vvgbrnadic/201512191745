@@ -3,12 +3,4 @@
 <property name="name" value="Izboriznosa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="izborIznosa_input_izabranIznos" type="InputTextInteger" id="1657364719">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;izabranIznos (izborIznosa_input)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="izborIznosa_in/izabranIznos"/>
-<property name="outputBinding" value="izborIznosa_out/izabranIznos"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
 </form>
