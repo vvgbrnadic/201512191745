@@ -1,7 +1,0 @@
-
-<form id="1688455347">
-<property name="name" value="IzboriIznosa-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="izbor_in" name="#E9E371" type="dataModelerEntry" outId="izbor_out" value="vvgbankomat.izborIznosaDat" id="idIzbor"/>
-</form>
