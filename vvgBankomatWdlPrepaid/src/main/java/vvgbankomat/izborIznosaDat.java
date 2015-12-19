@@ -10,8 +10,26 @@ public class izborIznosaDat implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label(value = "Izabran Iznos")
+   private java.lang.String izabranIznos;
+
    public izborIznosaDat()
    {
+   }
+
+   public java.lang.String getIzabranIznos()
+   {
+      return this.izabranIznos;
+   }
+
+   public void setIzabranIznos(java.lang.String izabranIznos)
+   {
+      this.izabranIznos = izabranIznos;
+   }
+
+   public izborIznosaDat(java.lang.String izabranIznos)
+   {
+      this.izabranIznos = izabranIznos;
    }
 
 }
