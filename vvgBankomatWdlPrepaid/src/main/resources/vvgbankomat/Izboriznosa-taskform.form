@@ -16,7 +16,7 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="rangeFormula" value="{&quot;100&quot;,&quot;100&quot;;&quot;200&quot;,&quot;200&quot;;&quot;300&quot;,&quot;300&quot;;&quot;400&quot;,&quot;400&quot;}"/>
+<property name="rangeFormula" value="{100,100;200,200;300,300;400,400}"/>
 <property name="inputBinding" value="izborIznosa_in/izabranIznos"/>
 <property name="outputBinding" value="izborIznosa_out/izabranIznos"/>
 <property name="fieldClass" value="java.lang.Integer"/>
