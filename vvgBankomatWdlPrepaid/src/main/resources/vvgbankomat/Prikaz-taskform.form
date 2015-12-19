@@ -3,4 +3,5 @@
 <property name="name" value="Prikaz-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="vvgbankomat.korisnikDat" id="KorisnikId"/>
 </form>
